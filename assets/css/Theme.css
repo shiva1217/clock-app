@@ -1,0 +1,19 @@
+/* 
+   Beach
+*/
+
+article[data-theme="Beach"] .clock {
+    background: url("https://images.app.goo.gl/vu9MLamiVqfaZQfj7") center no-repeat;
+    border: 3vmin solid #000;
+    border-radius: 50%;
+    box-shadow:
+        inset 40px 40px 90px rgba(0,0,0,.2),
+        inset 10px 10px 30px rgba(0,0,0,.5),
+        20px 20px 30px rgba(0,0,0,.4),
+        40px 40px 60px rgba(0,0,0,.4);
+}
+
+article[data-theme="Beach"] .clock .hr::before,
+article[data-theme="Beach"] .clock .min::before {
+    background-color: rgb(0, 0, 0);
+}
